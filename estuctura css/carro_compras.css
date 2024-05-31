@@ -1,0 +1,97 @@
+.contenedor{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.productos{
+    width: 60%;
+    margin-top: 20px;
+}
+.productos h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.productos hr{
+    width: 95%;
+    margin-left: 15px;
+}
+
+.subtitulos{
+    width: 100%;
+    display: flex;
+}
+.subtitulo1{
+    width: 40%;
+    margin-left: 15px;
+}
+.subtitulo2 > h3{
+    width: 40%;
+}
+.subtitulo2{
+    width: 50%;
+    display: flex;
+}
+
+
+/* sesion finalizar compra*/
+.total-compra{
+    width: 40%;
+    margin-top: 40px;
+}
+.detalles-compra{
+    width: 90%;
+    height: auto;
+    margin-left: 18px;
+    border: solid 4px rgba(177, 176, 176, 0.651);
+}
+.detalles-compra hr{
+    width: 90%;
+    margin-left: 18px;
+}
+.detalles-compra h2{
+    text-align: center;
+}
+.detalles-compra .items{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.detalles-compra .items h3{
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 60%;
+}
+.detalles-compra .items h4{
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.items-envio form{
+    width: 40%;
+    height: auto;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.boton{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+.boton button {
+    width: 80%;
+    height: 40px;
+    border: transparent;
+    color: white;
+    font-size: 17px;
+    background-color: rgb(63, 176, 241);
+    cursor: pointer;
+}
+.boton button:hover{
+    background-color: rgb(26, 156, 231);
+}

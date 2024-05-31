@@ -1,0 +1,63 @@
+.linea-titulo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.linea-titulo hr{
+    width: 70%;
+    height: 2px;
+    margin: 0 25px;
+}
+.titulo{
+    font-size: 25px;
+}
+
+.nosotros{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.nuestra-empresa{
+    width: 65%;
+    height: 400px;
+}
+
+.degradado{
+    width: 100%;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, rgb(63, 176, 241), rgb(0, 102, 255));
+}
+.item1{
+    height: 250px;
+}
+.item1 h2,
+.item1 p,
+.item2 h2,
+.item2 p{
+    margin-left: 10px;
+}
+.item1 p,
+.item2 p{
+    font-size: 17px;
+}
+
+
+.imagen{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.imagen img{
+    width: 70%;
+    height: 370px;
+    border-radius: 5%;
+    
+}
+.item3{
+    width: 90%;
+    height: 200px;
+    margin: 40px 50px; 
+}

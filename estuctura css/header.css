@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: arial;
+}
+
+/*  ENCCABEZADO */
+.back{
+    height: 30px;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(63, 176, 241), rgb(0, 102, 255));
+   
+}
+.back p{
+    width: 50%;
+    margin-left: 5%;
+    display: flex;
+}
+
+#header{
+    width: 100%;  
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(90deg, rgb(63, 176, 241), rgb(0, 102, 255));
+}
+/*LOGO*/
+.logo{
+    width: 100px;
+}
+/*BOTON DE BUSQUEDA*/
+.search-box{
+    position: relative;
+}
+.search-input{
+    padding: 12px;
+    font-size: 19px;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    width: 400px;
+}
+.search-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.search-img img{
+    width: 23px;
+    height: 23px;
+}
+/* BARRA DE MENU*/
+.menu ul{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(224, 226, 225);
+}
+.menu ul li{
+    margin: 20px;
+    list-style: none;
+}
+.menu ul hr{
+    width: 1px; 
+    height: 100%;
+}
+.menu ul li a{
+    margin: 0;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(107, 107, 107);
+}
+.menu ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+/* BOTON DE COMPRAS*/
+.compras{
+    margin: 0;
+}
+.compras a img{
+    width: 60px;
+}
